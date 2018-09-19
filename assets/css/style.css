@@ -1,0 +1,96 @@
+/**
+    Basic Portfolio Layout for the Header / Body of each page
+**/
+body {
+    background: grey;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: white;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+h1 {
+    float: left;
+    background: #4aaaa5;
+    font: Georgia;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid darkgrey;
+}
+
+#Contact {
+    float: right;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+#portfolio {
+    float: right;
+    padding: 20px;
+}
+
+#aboutme {
+    float: right;
+    padding: 20px;
+}
+
+main {
+    width: 960px;
+    background: white;
+    margin: auto;
+    border: 1px solid black; 
+    overflow: auto;
+}
+
+h2 {
+    color: #4aaaa5;
+    font: Georgia;
+    margin: 10px;
+}
+
+hr {
+    margin: 10px;
+}
+
+/**
+ *This is the CSS for the About Page 
+ **/
+
+#headshot {
+    margin: 10px;
+    float: left;
+}
+
+p {
+    float: left;
+}
+
+/**
+ *This is the CSS for the Portfolio Page
+ **/
+
+.PortfolioBox {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 50%
+}
+
+.stripe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4aaaa5;
+    padding: 10 px;
+    color: #eee;
+}
