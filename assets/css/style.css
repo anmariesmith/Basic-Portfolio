@@ -30,11 +30,20 @@ a {
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
+    position:relative;
     
 }
 a:hover {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #FF407E;
+}
+
+div {
+    position: relative;
+    float: right;
+    right: -1px;
+    top: 20px;
+    color: #777777
 }
 #Contact {
     float: right;
@@ -47,8 +56,6 @@ a:hover {
     padding: 20px;
     margin-top: auto;
     margin-bottom: auto;
-    border-left: 1px solid #cccccc;
-    border-right: 1px solid #cccccc;
 }
 
 #aboutme {
@@ -72,7 +79,6 @@ h2 {
     font: Georgia;
     margin: 10px;
 }
-
 hr {
     margin: 10px;
 }
@@ -97,19 +103,26 @@ p {
 
  .PortfolioBox {
      float: left;
-     margin: 20px 100px 20px 100px;
+     margin: 20px 50px 20px 50px;
      width: 150px;
+     position: relative;
  }   
 
 
 .stripe {
+    float: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #4aaaa5;
     color: white;
     padding: 20px;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    bottom: 20px;
+    top: 120px;
     width: 160px;
+    height: 20px;
+    left: 0;
+    z-index: 1;
+    text-align: center;
 }
 
 /** 
@@ -121,6 +134,7 @@ p {
     padding: 30;
     line-height: 2.0;
     margin: 15px;
+    width: 100%;
 }
 
 #fname {
