@@ -18,7 +18,7 @@ h1 {
     background: #4aaaa5;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color: white;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 20px 20px 20px;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 100px;
@@ -26,7 +26,7 @@ h1 {
     border-bottom: 1px solid darkgrey;
 }
 
-a{
+a {
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -45,10 +45,10 @@ a:hover {
 #portfolio {
     float: right;
     padding: 20px;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
     margin-top: auto;
-    margin-botton: auto;
+    margin-bottom: auto;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
 }
 
 #aboutme {
@@ -63,6 +63,7 @@ main {
     margin: auto;
     border: 1px solid #dddddd; 
     overflow: auto;
+    padding: 30px;
 }
 
 h2 {
@@ -95,9 +96,9 @@ p {
  **/
 
  .PortfolioBox {
-     float:left;
-     margin: 30px;
-     overflow: auto;
+     float: left;
+     margin: 20px 100px 20px 100px;
+     width: 150px;
  }   
 
 
@@ -106,6 +107,9 @@ p {
     background: #4aaaa5;
     color: white;
     padding: 20px;
+    position: relative;
+    bottom: 70px;
+    width: 160px;
 }
 
 /** 
@@ -158,11 +162,9 @@ p {
     padding: 30px 20px 0px 20px;
     text-align: center;
     background: #666666;
-    position: relative;
-    top: 420px;
+    position: fixed;
     border-top: 5px solid #4aaaa5;
     width: 100%;
-    float: bottom;
-    left: 0; right: 0; bottom: 0;
+    bottom: 0;
     height: 30px;
   }
